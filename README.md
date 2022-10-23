@@ -8,4 +8,6 @@
 - `python manage.py migrate` - применить миграции к базе данных
 - `python manage.py runserver` - запуск сервера для разработки
 
+## Агрегирующая информация
+- `python manage.py aggregate_func` - Выводит среднее, сумму, минимальное и максимальное значение
 
