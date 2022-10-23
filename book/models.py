@@ -17,7 +17,7 @@ class Genre(models.Model):
 
 class Book(models.Model):
     title = models.CharField(max_length=200)
-    description = models.CharField(max_length=500)
+    description = models.TextField(max_length=500)
     author = models.ManyToManyField(Author)
     genre = models.ManyToManyField(Genre)
     price = models.FloatField(null=True, blank=True)
